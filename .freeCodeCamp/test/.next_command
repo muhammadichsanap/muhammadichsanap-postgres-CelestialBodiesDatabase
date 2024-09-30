@@ -32,3 +32,11 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 sudo systemctl status postgresql
 sudo systemctl start postgresql
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git remote add origin https://github.com/muhammadichsanap/muhammadichsanap-postg
+git remote remove origin
+git remote add origin https://github.com/muhammadichsanap/muhammadichsanap-postg
+git remote remove origin
+git remote add origin https://github.com/muhammadichsanap/muhammadichsanap-postgres-CelestialBodiesDatabase.git
+git add.
+git add .
